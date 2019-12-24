@@ -1,7 +1,7 @@
 from PIL import Image as im,ImageDraw as ig_draw
 
 
-img = im.open('images.png').convert("LA")
+img = im.open('Images/images.jpg').convert("LA")
 
 
 pixels = img.load()

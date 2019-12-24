@@ -4,7 +4,7 @@ import numpy as np
 #converts rbg image into greyscale
 
 
-image = im.open('index.png')
+image = im.open('Images/index.png')
 image.show('index.png')
 image_array = np.array(image)
 print(image_array)

@@ -4,7 +4,7 @@ import numpy as np
 # load image to numpy arrayb
 # matplotlib 1.3.1 only supports png images
 # use scipy or PIL for other formats
-img = np.uint8(mpimg.imread('image.png')*255.0)
+img = np.uint8(mpimg.imread('Images/images.jpg')*255.0)
 # convert to grayscale
 # do for individual channels R, G, B, A for nongrayscale images
 
@@ -44,3 +44,22 @@ plt.plot(sk)
 plt.title('Transfer function') #transfer function
 
 plt.show()
+
+
+
+
+
+# from PIL import Image as im, ImageOps 
+# from matplotlib import pyplot as plt
+# import numpy as np
+
+# o_image = im.open("Images/images.jpg")
+# # plt.plot(o_image)
+# # plt.show()
+# row = o_image.size[0]
+# col = o_image.size[1]
+
+# im2 = ImageOps.equalize(o_image, mask = None)
+# # plt.plot(im2)
+# # plt.show()
+# im2.show()

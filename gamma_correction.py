@@ -1,7 +1,7 @@
 import numpy as np
 from PIL import Image as im,ImageDraw as ig_draw
 
-o_image = im.open('images.png').convert("LA")
+o_image = im.open('Images/images.png').convert("LA")
 row = o_image.size[0]
 col = o_image.size[1]
 gamma1 = 1.2
