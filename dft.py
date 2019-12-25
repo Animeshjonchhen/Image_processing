@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt
 from PIL import Image as im,ImageDraw as ig_draw
 
 o_image = im.open('Images/fourier_bw.png')
+image_array = np.array(o_image)
+
 #row = o_image.size[0]
 # col = o_image.size[1]
 # result = im.new("L", (row, col))

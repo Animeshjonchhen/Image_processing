@@ -1,3 +1,3 @@
 import numpy as np
 
-help(np.fft.fft2)
+# help(np.fft.fft2)
